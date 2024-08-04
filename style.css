@@ -1,0 +1,80 @@
+body {
+  background-color: #000000;
+  font-family: Open Sans, sans-serif;
+  color: #ffffff;
+}
+
+.title {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2px 0;
+  background-color: black;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  z-index: 3;
+}
+
+.anime, .world {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+}
+
+.anime {
+  color: #ffffff;
+}
+
+.world {
+  color: #0165e1;
+}
+
+.content {
+  margin-top: 80px;
+}
+
+hr {
+  border: solid 0.05px #ffffff;
+}
+
+h2 {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+}
+
+.dp {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 175px;
+  width: 175px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
+p {
+  text-align: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px auto;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Poppins, sans-serif;
+  background-color: #1577ff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: background-color 1.2s;
+}
+
+a:hover {
+  background: transparent;
+  border: solid #1577ff;
+}
