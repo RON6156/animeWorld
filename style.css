@@ -4,31 +4,6 @@ body {
   color: #ffffff;
 }
 
-.title {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 2px 0;
-  background-color: black;
-  font-family: Ubuntu, sans-serif;
-  font-weight: 700;
-  z-index: 3;
-}
-
-.anime, .world {
-  font-family: Ubuntu, sans-serif;
-  font-weight: 700;
-}
-
-.anime {
-  color: #ffffff;
-}
-
-.world {
-  color: #0165e1;
-}
-
 .content {
   margin-top: 80px;
 }
