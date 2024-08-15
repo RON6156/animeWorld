@@ -78,8 +78,3 @@ button {
   padding: 10px 125px;
   border-radius: 10px;
 }
-
-ion-icon {
-  font-size: 18px;
-  --ionicon-stroke-width: 40px;
-}
