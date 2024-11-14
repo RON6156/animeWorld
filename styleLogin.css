@@ -1,0 +1,86 @@
+body {
+  background-color: white;
+  font-family: Open Sans, sans-serif;
+}
+
+.form-box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+}
+
+.form-value {
+   background-color: whitesmoke;
+   padding: 20px;
+   border-radius: 20px;
+   box-shadow: 0 5px 8px #808080;
+  }
+
+  form {
+   display: flex;
+   flex-direction: column;
+   margin-top: 20px;
+   width: 100%;
+}
+
+.heading {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.input {
+    margin-top: 8px;
+}
+
+label {
+    font-family: Open Sans, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+input {
+    font-family: Ubuntu, sans-serif;
+    font-size: 16px;
+    padding: 8px 50px 8px 8px;
+    margin: 0 0 8px 3px;
+    outline: none;
+    border: none;
+    border-bottom: solid #ccc;
+    background: transparent;
+}
+
+.forget {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #1577ff;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #1577ff;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    text-align: center;
+    padding: 10px 110px;
+    background-color: #1577ff;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+}

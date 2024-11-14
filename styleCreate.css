@@ -1,0 +1,80 @@
+body {
+  background-color: white;
+  font-family: Open Sans, sans-serif;
+}
+
+.form-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.form-value {
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 5px 8px #808080;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.heading {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  text-align-last: center;
+}
+
+.input {
+  font-family: Ubuntu, sans-serif;
+}
+
+label {
+  font-family: Open Sans, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+input {
+  background: transparent;
+  padding: 8px 50px 8px 8px;
+  margin-bottom: 8px;
+  border: none;
+  border-bottom: solid #ccc;
+  outline: none;
+  font-family: Ubuntu, sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #1577ff;
+}
+
+a:hover {
+  color: #1577ff;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #1577ff;
+  color: white;
+  border: none;
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 110px;
+  border-radius: 10px;
+}
